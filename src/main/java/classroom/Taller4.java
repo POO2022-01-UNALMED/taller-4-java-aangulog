@@ -6,6 +6,8 @@ public class Taller4 {
         Persona[] estudiantes1 = new Persona[3];
         estudiantes1[0] = new Persona(188220);
         estudiantes1[1] = new Persona();
+        //System.out.println(estudiantes1[0].cedula);
+        //System.out.println(estudiantes1[1].cedula);
         estudiantes1[2] = new Persona(71212, "Maria");
         Persona profesor1 = new Persona("Juan", 988);
         Asignatura asignatura1 = new Asignatura("Calculo",Tipo.FUNDAMENTACION);
